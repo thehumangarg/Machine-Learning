@@ -1,0 +1,6 @@
+np.arange(start, stop, step)
+
+np.linspace(start, stop, no. of ele)
+(calculates the no. of elements present in the range with equal space)
+
+np.zeros([D,D]) -> creates a multi-d array with all elements as 0
