@@ -1,0 +1,7 @@
+arr.min()
+arr.max()
+arr.sum()
+arr.mean()
+np.median(arr)
+np.average
+np.var(arr)
