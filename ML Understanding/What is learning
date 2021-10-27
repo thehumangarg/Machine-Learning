@@ -1,0 +1,10 @@
+Supervised(because both input and outputs are labelled and output depends on input)-> classification, regression
+  classification-> discrete, regression-> continuous 
+
+Unsupervised-> only imput parameters
+  Clustering-> grouping and finding on basis of multiple inputs.
+  Association-> suppermarket example wrt
+
+semi-supervised-> mixed(image datasets processing)
+
+Reinforcement-> Bots(perform and get rewarded->increases performance(competes with itself and human))
