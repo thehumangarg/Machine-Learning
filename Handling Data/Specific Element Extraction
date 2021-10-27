@@ -1,0 +1,3 @@
+arr[0,:].    (meaning 0 is index and : means all columns)
+
+arr[:-1, :]   (leave last element)
