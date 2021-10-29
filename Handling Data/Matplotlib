@@ -1,0 +1,31 @@
+line graph and scatter plot
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+initialise x and y
+
+x=[]
+y=[]
+plt.plot(x,y)
+plt.title(), plt.xlabel(), plt.ylabel(), plt.show
+plt.plot(x,y,'^')           (^)-> gives triangles on coordinates 
+
+for sine graph
+x=np.range(0, 3*np.pi, 0.1)
+y= np.sin(x)
+plt.plot(x,y)
+plt.scatter(x,y)
+
+comparision b/w 2 plots:
+
+plt.plot(x,y, color='g', linewidth=6)
+plt.plot(x2,y2, color='r', linewidth=4)
+
+plt.show
+
+plt.annotate(xy=[2,3], text='first line')
+plt.annotate(xy=[4,4], text='second line')
+
+plt.legend(['First_Line', 'Second_Line'], loc=4)
