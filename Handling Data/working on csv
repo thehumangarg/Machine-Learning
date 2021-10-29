@@ -1,0 +1,8 @@
+df= pd.read_csv('location')
+to print df => df.head(argument(no. of data))
+for info => df.info
+for description => df.describe()
+data selection => df['name'][:digit]
+                  df['name'(can write multiple)][:5]
+                  df.iloc[:10,1:3]
+                  df.iloc[:10,[1,3](column 1 and 3)]                  
