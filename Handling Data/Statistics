@@ -1,0 +1,9 @@
+df1['marks'].sum()
+            .mean()
+            .cumsum()
+            .count()
+            .min()
+            .max()
+            .var()
+std() => std daviation
+df1.corr() => corelation of columns with each other
