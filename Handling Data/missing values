@@ -1,0 +1,13 @@
+np.nan => works as null
+df1 = pd.DataFrame(data)
+shows np.nan as NaN
+
+isnull() => df1.isnull()      [true=> shows it is null]
+            df1.isnull().sum()
+
+fillna() => df2= df1.fillna(1)
+
+dropping null values=> a=df1.dropna()       [dropna(axis=0 =>row; axis=1 =>column)]
+
+creating data with non null values:
+a=pd.notnull(df1["marks"])
