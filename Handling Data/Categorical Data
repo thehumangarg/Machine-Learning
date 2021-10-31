@@ -3,3 +3,5 @@ import numpy as np
 
 data = pd.read_csv('location')
 data.head()
+data[''].unique()
+data[''].value.counts()
