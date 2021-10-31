@@ -1,0 +1,17 @@
+import libraries
+data loading 
+
+dropping values column wise and row wise
+a=data.dropna(axis=1)   =>column
+a=data.dropna(axis=0)   =>row
+
+using fillna()
+cols=['','','','']
+a=data[cols].fillna(value=99999)
+
+using imputer
+from sklearn.preprocessing import Imputer
+imputer_mean = Imputer(missing_values="NaN", strategy="mean", axis=0)
+same for median and most_frequent
+imputer_data_mean = imputer_mean.fit_transform(data[cols])
+imputer_data_mean = pd.DataFrame(data= imputer_data_mean, columns=cols)
