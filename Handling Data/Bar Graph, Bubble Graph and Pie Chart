@@ -1,0 +1,21 @@
+bar graph:
+
+x=[]      x1=[]
+y=[]      y2=[]
+
+plt.bar() => vertical
+plt.barh() => horizontal 
+
+Bubble graph and pie chart:
+
+plt.scatter(x,y, s=np.random.rand(5)*1000, c=np.random.rand(5))
+rest is same as scatter plot we just mention size and color in bubble graph
+
+pie chart=> data=[3,7,6,5,8]
+plt.pie(data)
+plt.show
+
+ex=(0,0.1,0,0,0) => explode->separates the piece
+lb=['a','b','c','d','e'] =>labels
+
+plt.pie(data, labels=lb, explode=ex, shadow=true)
