@@ -1,0 +1,27 @@
+intuition:
+we feed it input and output further divided into 
+x_train, y_train, x_test, y_test
+
+code:
+
+import libraries
+data initialisation
+data.describe()
+data.info()
+data=data.fillna(value= /meanvalue/)
+
+splitting manually:
+
+drop the required value
+x=data.drop('', axis=1)
+y=data['']
+
+x_train=x.loc[0:20000,:]
+x_test=x.loc[20000:,:]
+y_train=y.loc[0:20000]
+y_test=y.loc[20000:]
+
+using sklearn:
+
+from sklearn.model_selection import train_test_split
+x_train, x_test, y_train, y_test = train_test_split(x,y,test_size=0.20)
