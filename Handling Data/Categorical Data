@@ -5,3 +5,16 @@ data = pd.read_csv('location')
 data.head()
 data[''].unique()
 data[''].value.counts()
+
+label encoding:
+
+from sklearn.processing import LabelEncoder
+label_encoder_X=LabelEncoder()
+label_encoder_data=label_encoder_X.fit_transform(data['Remarks'])
+label_encoded_data['Remarks'].unique()
+
+one hot encoding:
+
+one_hot_encoded_data=pd.get_dummies(data, colums=['Remarks', 'Gender'])
+one_hot_encoded_data.head()
+Binary Transformation (Converts into a table)
