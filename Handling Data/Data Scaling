@@ -1,0 +1,12 @@
+intuition:
+basically to reduce biasing & bring all values b/w 0 and 1
+
+code:
+
+labraries import
+data initialize
+last column drop(if it has text data or result column)
+drop null values on axis=0
+scaler= MinMaxScaler()
+scaler.fit(data)
+scaler_data=pd.DataFrame(data=scaler.transform(data), columns=data.columns, index=data.index)
