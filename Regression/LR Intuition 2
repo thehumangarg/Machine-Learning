@@ -1,0 +1,5 @@
+⍺ -> alpha -> learning rate in gradient descent algo
+
+gradient descent
+m' = m-⍺(dcost/dm)-> backward propagation
+final eqn=> m' = m- ⍺/n (y^-y)x 
