@@ -1,0 +1,20 @@
+Algo 1:
+
+unsupervised ml algo (no label)
+
+choose center no.s
+select at random k point centroids
+assign data point to closest centroid
+calculate new centroid
+repeat steps until centroid is fixed.
+
+intra cluster distance ↓
+inter cluster distance ↑
+because we want to differentiate b/w diff cluster groups
+
+
+Algo 2(Elbow method):
+
+optimal no. of clusters
+min WCSS value
+Elbow point- After which value decreases normally
