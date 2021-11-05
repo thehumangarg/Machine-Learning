@@ -1,0 +1,17 @@
+intuition 1:
+
+bottom up approach & doesnt require no. of clusters as input
+
+algo:
+each point as cluster
+2 nearest points form 1 cluster
+take closest clusters and combine them
+repeat till 1 cluster is left
+
+
+2(dendogram):
+
+create dendogram
+find the longest line
+pass a plane through mid of it
+the no. of lines it cuts is the no. of optimal clusters
