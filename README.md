@@ -3,8 +3,7 @@ The basics of machine learning concepts.
 order of the course:
 
 Machine Learning Understanding
-
-Handling Data	  
+Handling Data 
 Regression  
 Classification	   
 Clustering	 
