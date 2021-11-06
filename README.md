@@ -6,7 +6,7 @@ Machine Learning Understanding
 Handling Data       
 Regression  
 Classification	   
-Clustering	 
+Clustering	       
 Data Dimensionality	   
 Association Mining	    
 Natural Language Processing
